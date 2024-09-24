@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://kit.fontawesome.com/e3ea098f53.js" crossorigin="anonymous"></script>
+<script src="new.js"></script>
+<style>
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+/* Dropdown Button */
+.dropbtn1 {
+  background-color: white;
+  color:#237591;
+  padding: 40px;
+  font-size: 14px;
+  border: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width:max-content;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color:#237591;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {background-color: white;text-decoration: underline yellowgreen 3px;}
+
+.model:hover{
+    text-decoration: underline yellowgreen 3px;
+}
+
+.dropdown-content1 a{
+    text-decoration: none;
+    color: #237591;
+}
+
+.head1{
+    color: #237591;
+    background-color:  #e3f8f8;
+    padding: 25px 15%;
+    font-size: x-large;
+}
+.option{
+    height: auto;
+    width: auto;
+    background-color: #e3f8f8;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 25px;
+    border: 1px solid #abb8c3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#237591;
+}
+.option:hover{
+    background-color: #abb8c3;
+    color: white;
+}
+.option:focus{
+    background-color: #237591;
+    color: white;
+}
+.question,.p1{
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#e3f8f8;
+}
+.footer{
+    color: black;
+    font-size: x-small;
+}
+
+.button{
+    text-decoration: none;
+    padding:15px 35px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    float: right;
+    margin-right: 10%;
+}
+.clear{
+    clear: both;
+}
+.design{
+    display: flex;
+    padding:25px 37%;
+}
+.p3{
+    text-transform: lowercase;
+}
+.button1{
+    text-decoration: none;
+    padding:15px 35px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    float: left;
+    margin-left: 10%;
+}
+</style>
+<body>
+    <div class="header" id="headermain">
+
+        <img height="10%" width="20%" 
+         src="MINDMATTERS_LO-FF_02b-01.jpg" alt="">
+    
+         <div class="dropdown1">
+            <button class="dropbtn1" ><b>Learn about mental health</b></button>
+            <div class="dropdown-content1">
+              <a href="#">Mental Health 101</a>
+              <a href="#">Treatment info</a>
+              <a href="#">Anxiety</a>
+              <a href="">ADHD</a>
+              <a href="">Bipolar</a>
+              <a href="">Addiction</a>
+              <a href="">Psychosis</a>
+              <a href="">PTSD</a>
+              <a href="">Self-Harm</a>
+              <a href="">Suicide</a>
+              <a href="">Youth</a>
+              <a href="">Friends & Family</a>
+            </div>
+          </div>
+    
+          <div class="dropdown1">
+            <button class="dropbtn1" ><b>Resources</b></button>
+            <div class="dropdown-content1">
+              <a href="#">DIY Tools</a>
+              <a href="#">Get Help</a>
+              <a href="#">Connect with others</a>
+              <a href="">Overcoming Negative Thoughts</a>
+            </div>
+          </div>
+    
+          <div class="dropdown1">
+            <button class="dropbtn1" ><b>About Us</b></button>
+            <div class="dropdown-content1">
+                <a href="">Contact Us</a>
+              <a href="#">About Mind Matters screening</a>
+              <a href="#">About our mental health tests</a>
+            </div>
+          </div>
+    
+          <a class="model" href="login.html" target="popup"
+               onclick="window.open('login.html','popup','width=600,height=600',); return false;" style="color: #237591;
+               padding: 40px; font-size: 14px;"><b>Login</b></a>
+            <a class="model" href="register.html" target="popup" 
+            onclick="window.open('register.html','popup','width=600,height=600'); return false;" 
+            style="color: #237591;padding: 40px; font-size: 14px;"><b>Registration</b></a>
+    </div>
+
+    <div class="head1">
+        <h1>Depression Test</h1>
+    </div>
+
+    <div class="design" align="center">
+        <p class="p3"><i class="fa-solid fa-circle" style="font-size: xx-large;"></i><br>test <br> questions</p>
+        <i class="fa-solid fa-arrow-right-long" style="font-size: xx-large;padding: 2%;"></i>
+        <p class="p3"><i class="fa-regular fa-circle" style="font-size: xx-large;"></i><br>demographic <br> info</p>
+        <i class="fa-solid fa-arrow-right-long" style="font-size: xx-large;padding: 2%;"></i>
+        <p class="p3"><i class="fa-regular fa-circle" style="font-size: xx-large;"></i><br>your  <br>results</p></div>
+
+    <p class="p1"><b>Over the last 2 weeks</b>, how often have you been bothered by any of the following problems?
+      <br><br>  Please note, all fields are required.</p><br>
+      
+    <div class="question">
+        <p>1. Little interest or pleasure in doing things <br>
+        <div class="input"><input type="button" class="option" required name="NOT AT ALL" value="NOT AT ALL" >
+        <input type="submit" class="option"  name="SEVERAL DAYS" value="SEVERAL DAYS" required onclick="option1()">
+        <input type="submit" class="option" required name="MORE THAN HALF THE DAYS" value="MORE THAN HALF THE DAYS" onclick="option2()">
+        <input type="submit" class="option" required name="NEARLY EVERY DAY" value="NEARLY EVERY DAY" onclick="option3()">
+    </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>2. Feeling down, depressed, or hopeless <br>
+            <div class="input"><input type="submit" class="option" required name="NOT AT ALL" value="NOT AT ALL" >
+                <input type="submit" class="option"  name="SEVERAL DAYS" value="SEVERAL DAYS" required onclick="option1()">
+                <input type="submit" class="option" required name="MORE THAN HALF THE DAYS" value="MORE THAN HALF THE DAYS" onclick="option2()">
+                <input type="submit" class="option" required name="NEARLY EVERY DAY" value="NEARLY EVERY DAY" onclick="option3()">
+            </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>3. Trouble falling or staying asleep, or sleeping too much <br>
+            <div class="input"><input type="button" class="option" required name="NOT AT ALL" value="NOT AT ALL" >
+                <input type="submit" class="option"  name="SEVERAL DAYS" value="SEVERAL DAYS" required onclick="option1()">
+                <input type="submit" class="option" required name="MORE THAN HALF THE DAYS" value="MORE THAN HALF THE DAYS" onclick="option2()">
+                <input type="submit" class="option" required name="NEARLY EVERY DAY" value="NEARLY EVERY DAY" onclick="option3()">
+            </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>4. Feeling tired or having little energy <br>
+            <div class="input"><input type="button" class="option" required name="NOT AT ALL" value="NOT AT ALL" >
+                <input type="submit" class="option"  name="SEVERAL DAYS" value="SEVERAL DAYS" required onclick="option1()">
+                <input type="submit" class="option" required name="MORE THAN HALF THE DAYS" value="MORE THAN HALF THE DAYS" onclick="option2()">
+                <input type="submit" class="option" required name="NEARLY EVERY DAY" value="NEARLY EVERY DAY" onclick="option3()">
+            </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>5. Poor appetite or overeating <br>
+            <div class="input"><input type="button" class="option" required name="NOT AT ALL" value="NOT AT ALL" >
+                <input type="submit" class="option"  name="SEVERAL DAYS" value="SEVERAL DAYS" required onclick="option1()">
+                <input type="submit" class="option" required name="MORE THAN HALF THE DAYS" value="MORE THAN HALF THE DAYS" onclick="option2()">
+                <input type="submit" class="option" required name="NEARLY EVERY DAY" value="NEARLY EVERY DAY" onclick="option3()">
+            </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>6. Feeling bad about yourself - or that you are a failure or have let yourself or your family down <br>
+            <div class="input"><input type="button" class="option" required name="NOT AT ALL" value="NOT AT ALL" >
+                <input type="submit" class="option"  name="SEVERAL DAYS" value="SEVERAL DAYS" required onclick="option1()">
+                <input type="submit" class="option" required name="MORE THAN HALF THE DAYS" value="MORE THAN HALF THE DAYS" onclick="option2()">
+                <input type="submit" class="option" required name="NEARLY EVERY DAY" value="NEARLY EVERY DAY" onclick="option3()">
+            </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>7. Trouble concentrating on things, such as reading the newspaper or watching television <br>
+            <div class="input"><input type="button" class="option" required name="NOT AT ALL" value="NOT AT ALL" >
+                <input type="submit" class="option"  name="SEVERAL DAYS" value="SEVERAL DAYS" required onclick="option1()">
+                <input type="submit" class="option" required name="MORE THAN HALF THE DAYS" value="MORE THAN HALF THE DAYS" onclick="option2()">
+                <input type="submit" class="option" required name="NEARLY EVERY DAY" value="NEARLY EVERY DAY" onclick="option3()">
+            </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>8. Moving or speaking so slowly that other people could have noticed
+            Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual <br>
+            <div class="input"><input type="button" class="option" required name="NOT AT ALL" value="NOT AT ALL" >
+                <input type="submit" class="option"  name="SEVERAL DAYS" value="SEVERAL DAYS" required onclick="option1()">
+                <input type="submit" class="option" required name="MORE THAN HALF THE DAYS" value="MORE THAN HALF THE DAYS" onclick="option2()">
+                <input type="submit" class="option" required name="NEARLY EVERY DAY" value="NEARLY EVERY DAY" onclick="option3()">
+            </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>9. Thoughts that you would be better off dead, or of hurting yourself <br>
+            <div class="input"><input type="button" class="option" required name="NOT AT ALL" value="NOT AT ALL" >
+                <input type="submit" class="option"  name="SEVERAL DAYS" value="SEVERAL DAYS" required onclick="special()">
+                <input type="submit" class="option" required name="MORE THAN HALF THE DAYS" value="MORE THAN HALF THE DAYS" onclick="special()">
+                <input type="submit" class="option" required name="NEARLY EVERY DAY" value="NEARLY EVERY DAY" onclick="special()">
+            </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>10. If you checked off any problems, how difficult have these problems made it for you at work, home, or with other people? <br>
+            <div class="input"><input type="button" class="option" required name="NOT AT ALL" value="NOT AT ALL" >
+                <input type="submit" class="option"  name="SEVERAL DAYS" value="SEVERAL DAYS" required onclick="option1()">
+                <input type="submit" class="option" required name="MORE THAN HALF THE DAYS" value="MORE THAN HALF THE DAYS" onclick="option2()">
+                <input type="submit" class="option" required name="NEARLY EVERY DAY" value="NEARLY EVERY DAY" onclick="option3()">
+            </div></p>
+    </div><br>
+
+    <a class="button1" href="index.html" style="color:white;background-color: #237591;"><b><i class="fa-solid fa-arrow-left fa-bounce" style="font-size: larger;"></i><b style="color: #237591;"> _</b>Home </b></a>
+    <a class="button" href="mindmatters3.html" style="color:white;background-color: #237591;" ><b>NEXT <b style="color: #237591;"> _</b><i class="fa-solid fa-chevron-right fa-bounce" style="font-size: larger;"></i></b></a>
+<br class="clear"><br>
+
+<hr class="line"><br>
+
+    <footer>
+        <a class="link2" href="copy.html" style="color: black;"><i class="fa-solid fa-house"></i></a>
+        <a href="" style="color: black;"><i class="fa-brands fa-instagram" style=""></i></a>
+        <a href="" style="color: black;"><i class="fa-solid fa-envelope"></i></a>
+        <a href="" style="color: black;"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="" style="color: black;"><i class="fa-brands fa-twitter"></i></a>
+        <a href="" style="color: black;"><i class="fa-brands fa-youtube"></i></a>
+       <p class="footer" align="center"> © Copyright 2023 | Mind Matters. See <a href="" style="text-decoration: dotted; color: rgb(61, 85, 200);">Terms of Use</a> and <a href="" style=" color: rgb(72, 113, 209); text-decoration: dotted;">Privacy Policy</a>.</p>
+    
+    <p class="footer">Mind Matters Screening is an educational program intended to help inform people about options they have in getting help for mental health issues. It may suggest tools and resources that offer information, treatment services,
+         self-help (or “DIY”) tools, and/or ways to connect with others. It does not represent its results as an exhaustive list of all services available to a given individual for a given mental health concern, as an endorsement of specific treatments
+          or services, or as a replacement for treatment or services as performed by a qualified provider. For any and all suggestions, comments, or questions, please contact Mind Matters</p>
+    </footer>
+
+<script src="new.js"></script>
+</body>
+</html>

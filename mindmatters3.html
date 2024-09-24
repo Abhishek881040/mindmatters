@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://kit.fontawesome.com/e3ea098f53.js" crossorigin="anonymous"></script>
+<style>
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+/* Dropdown Button */
+.dropbtn1 {
+  background-color: white;
+  color:#237591;
+  padding: 40px;
+  font-size: 14px;
+  border: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width:max-content;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color:#237591;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {background-color: white;text-decoration: underline yellowgreen 3px;}
+
+.model:hover{
+    text-decoration: underline yellowgreen 3px;
+}
+
+.dropdown-content1 a{
+    text-decoration: none;
+    color: #237591;
+}
+
+.head1{
+    color: #237591;
+    background-color:  #e3f8f8;
+    padding: 25px 15%;
+    font-size: x-large;
+}
+
+
+
+.p1,fieldset,.imp,.question,h2{
+   margin-left: 10%;
+    margin-right: 10%;
+}
+
+input[type="radio"]{
+    height: 20px;
+    width: 20px;
+}
+.p2{
+    line-height: 2em;
+}
+
+
+.option{
+    height: auto;
+    width: auto;
+    background-color: #e3f8f8;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 25px;
+    border: 1px solid #abb8c3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#237591;
+}
+.option:hover{
+    background-color: #abb8c3;
+    color: white;
+}
+.option:focus{
+    background-color: #237591;
+    color: white;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#e3f8f8;
+}
+.footer{
+    color: black;
+    font-size: x-small;
+}
+
+.button{
+    text-decoration: none;
+    padding:15px 35px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    float: right;
+    margin-right: 10%;
+}
+.clear{
+    clear: both;
+}
+.button1{
+    text-decoration: none;
+    padding:15px 35px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    float: left;
+    margin-left: 10%;
+}
+
+
+
+
+.imp{
+    width :20%;
+}
+select{
+    border-radius: 30px;
+    height: 40px;
+    width: 100%;
+    background-color: #e3f8f8;
+}
+option{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: #237591;
+    line-height: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.design{
+    display: flex;
+    padding:25px 37%;
+}
+.p3{
+    text-transform: lowercase;
+}
+
+</style>
+<body>
+    <div class="header" id="headermain">
+
+        <img height="10%" width="20%" 
+         src="MINDMATTERS_LO-FF_02b-01.jpg" alt="">
+    
+         <div class="dropdown1">
+            <button class="dropbtn1" ><b>Learn about mental health</b></button>
+            <div class="dropdown-content1">
+              <a href="#">Mental Health 101</a>
+              <a href="#">Treatment info</a>
+              <a href="#">Anxiety</a>
+              <a href="">ADHD</a>
+              <a href="">Bipolar</a>
+              <a href="">Addiction</a>
+              <a href="">Psychosis</a>
+              <a href="">PTSD</a>
+              <a href="">Self-Harm</a>
+              <a href="">Suicide</a>
+              <a href="">Youth</a>
+              <a href="">Friends & Family</a>
+            </div>
+          </div>
+    
+          <div class="dropdown1">
+            <button class="dropbtn1" ><b>Resources</b></button>
+            <div class="dropdown-content1">
+              <a href="#">DIY Tools</a>
+              <a href="#">Get Help</a>
+              <a href="#">Connect with others</a>
+              <a href="">Overcoming Negative Thoughts</a>
+            </div>
+          </div>
+    
+          <div class="dropdown1">
+            <button class="dropbtn1" ><b>About Us</b></button>
+            <div class="dropdown-content1">
+                <a href="">Contact Us</a>
+              <a href="#">About Mind Matters screening</a>
+              <a href="#">About our mental health tests</a>
+            </div>
+          </div>
+    
+          <a class="model" href="login.html" target="popup"
+               onclick="window.open('login.html','popup','width=600,height=600',); return false;" style="color: #237591;
+               padding: 40px; font-size: 14px;"><b>Login</b></a>
+            <a class="model" href="register.html" target="popup" 
+            onclick="window.open('register.html','popup','width=600,height=600'); return false;" 
+            style="color: #237591;padding: 40px; font-size: 14px;"><b>Registration</b></a>
+    </div>
+
+    <div class="head1">
+        <h1>Depression Test</h1>
+    </div>
+
+    <div class="design" align="center">
+        <p class="p3"><i class="fa-solid fa-circle-check" style="font-size: xx-large;"></i><br>test <br> questions</p>
+        <i class="fa-solid fa-arrow-right-long" style="font-size: xx-large;padding: 2%;"></i>
+        <p class="p3"><i class="fa-solid fa-circle" style="font-size: xx-large;"></i><br>demographic <br> info</p>
+        <i class="fa-solid fa-arrow-right-long" style="font-size: xx-large;padding: 2%;"></i>
+        <p class="p3"><i class="fa-regular fa-circle" style="font-size: xx-large;"></i><br>your  <br>results</p></div>
+
+    <p class="p1">Please take a moment to answer the following optional questions. Your answers are totally anonymous—we won't be able to identify you based on this information. Your answers help us provide better information and support for people like you.
+<br><br>
+        You can answer as many or as few questions as you would like. When you are done, scroll to the bottom of the survey and click "submit" to receive your screening results.</p>
+
+     <fieldset><legend>What is the main thing you want to do after taking this mental health test? (Select one)</legend>
+        
+            <p class="p2"><input type="radio" required value="" name="button" id="b10">Take another mental health test <br>
+            <input type="radio" required value="" name="button" id="b9">Understand what depression is like (reading articles) <br>
+            <input type="radio" required value="" name="button" id="b8">Understand and manage self-harm or suicidal thoughts <br>
+            <input type="radio" required value="" name="button" id="b7">Tips for managing depression (reading articles) <br>
+            <input type="radio" required value="" name="button" id="b6">Learn and practice skills for how to manage depression (try a free self-help tools) <br>
+            <input type="radio" required value="" name="button" id="b5">Learn about what therapy/treatment is like (reading articles) <br>
+            <input type="radio" required value="" name="button" id="b4">Find a treatment provider near you <br>
+            <input type="radio" required value="" name="button" id="b3">Find a forum or support group for people with depression <br>
+            <input type="radio" required value="" name="button" id="b1">Other <br>
+            <input type="radio" required value="" name="button" id="b2">I don't want to do anything </p>
+        
+            </fieldset><br><br>
+
+            <fieldset><legend>Do you feel like you need to do something to improve your mental health?</legend>
+        
+                <p class="p2"><input type="radio" required value="" name="button1" id="b10">Yes <br>
+                <input type="radio" required value="" name="button1" id="b9">No<br>
+                <input type="radio" required value="" name="button1" id="b8">I don't know <br>
+                </p>
+            
+                </fieldset><br><br>
+
+    <hr><br><br><h2 style="color: #237591;text-decoration: underline 3px solid yellow ;">About you</h2><br>
+
+    <div class="question">
+        <p>Are you taking this test for yourself or for someone else? <br>
+        <div class="input">
+        <input type="submit" class="option" required name="option1" id="p1" value="FOR MYSELF">
+        <input type="submit" class="option" required name="option1" id="p2" value="FOR SOMEONE ELSE">
+    </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>Gender <br>
+        <div class="input"><input type="submit" class="option" required name="option2" id="p2" value="MALE">
+        <input type="submit" class="option" required name="option2" id="p1" value="FEMALE">
+        <input type="submit" class="option" required name="option2" id="p3" value="NON-BINARY">
+    </div></p>
+    </div><br>
+
+    
+
+    <div class="imp"><p>Age Group <br><br>
+        <select name="card_type" id="card_type">
+            <!--if value is empty then the option is not subbited to server-->
+            <!--empty value can be used to create a blank sentence-->
+            <option value="rupay"></option>
+            <option value="">8-12</option>
+            <option value="visa">13-17</option>
+            <option value="mastercard">18-24</option>
+            <option value="rupay">25-44</option>
+            <option value="rupay">45-64</option>
+            <option value="rupay">65+</option>
+            
+        </select>
+       </p></div><br>
+
+       <div class="imp"><p>Household Income <br><br>
+        <select name="card_type" id="card_type">
+            <!--if value is empty then the option is not subbited to server-->
+            <!--empty value can be used to create a blank sentence-->
+            <option value="rupay"></option>
+            <option value="">less than Rs.100000</option>
+            <option value="visa">100001-300000</option>
+            <option value="mastercard">300001-500000</option>
+            <option value="rupay">500001-1000000</option>
+            <option value="rupay">1000001-2000000</option>
+            <option value="rupay">Above Rs.2000000</option>
+            
+        </select>
+       </p></div><br>
+   
+       <div class="question">
+        <p>Do you live in India or another country?<br>
+        <div class="input">
+        <input type="submit" class="option" required name="option1" id="p1" value="I LIVE IN INDIA">
+        <input type="submit" class="option" required name="option1" id="p2" value="I LIVE IN OTHER COUNTRY">
+    </div></p>
+    </div><br>
+
+    <fieldset><legend>Which of the following populations describes you?
+        Select all that apply.</legend>
+        
+        <p class="p2"><input type="radio" required value="" name="button3a" id="b10">Caregiver of someone living with emotional or physical illness <br>
+        <input type="radio" required value="" name="button3aa" id="b9">Veteran or active-duty military <br>
+        <input type="radio" required value="" name="button3aaa" id="b8">Student <br>
+        <input type="radio" required value="" name="button3aaaa" id="b7">Trauma survivor<br>
+        <input type="radio" required value="" name="button3aaaaa" id="b6">New or expecting parent<br>
+        <input type="radio" required value="" name="button3s" id="b5">Healthcare worker<br>
+        <input type="radio" required value="" name="button3ss" id="b4">LGBTQ+<br></p>
+    
+        </fieldset><br><br>
+
+        <fieldset><legend>If you have any of the following physical health conditions?
+            Select all that apply.</legend>
+            
+            <p class="p2"><input type="radio" required value="" name="buttoa" id="b10">Heart disease<br>
+            <input type="radio" required value="" name="butto" id="b9">Diabetes <br>
+            <input type="radio" required value="" name="butt" id="b8">Cancer<br>
+            <input type="radio" required value="" name="but" id="b7">Reproductive health concerns<br>
+            <input type="radio" required value="" name="butta" id="b6">Arthritis or other chronic pain<br>
+            <input type="radio" required value="" name="bu" id="b5">Asthma, COPD or other lung conditions<br>
+            <input type="radio" required value="" name="b" id="b4">Movement Disorders<br>
+            <input type="radio" required value="" name="bua" id="b4">Digestive problems<br>
+            <input type="radio" required value="" name="buta" id="b4">Neurological conditions or traumatic brain injury<br>
+        </p>
+            </fieldset><br><br>
+
+    <div class="question">
+        <p>Have you ever received treatment/support for a mental health problem?<br>
+        <div class="input">
+        <input type="submit" class="option" required name="option1" id="p1" value="YES">
+        <input type="submit" class="option" required name="option1" id="p2" value="NO">
+    </div></p>
+    </div><br>
+
+    <div class="question">
+        <p>Do you currently have health insurance?<br>
+        <div class="input">
+        <input type="submit" class="option" required name="option1" id="p1" value="YES">
+        <input type="submit" class="option" required name="option1" id="p2" value="NO">
+    </div></p>
+    </div><br>
+
+<br><br>
+    <a class="button1" href="mindmatters2.html" style="color:white;background-color: #237591;"><b><i class="fa-solid fa-arrow-left fa-bounce" style="font-size: larger;"></i><b style="color: #237591;"> _</b>PREVIOUS </b></a>
+
+    <a class="button" onclick="result()" href="mindmatters4.html" style="color:white;background-color: #237591;"><b>NEXT <b style="color: #237591;"> _</b><i class="fa-solid fa-chevron-right fa-bounce" style="font-size: larger;"></i></b></a>
+<br class="clear"><br>
+
+<hr class="line"><br>
+
+    <footer>
+        <a class="link2" href="#headermain" style="color: black;"><i class="fa-solid fa-house"></i></a>
+        <a href="" style="color: black;"><i class="fa-brands fa-instagram" style=""></i></a>
+        <a href="" style="color: black;"><i class="fa-solid fa-envelope"></i></a>
+        <a href="" style="color: black;"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="" style="color: black;"><i class="fa-brands fa-twitter"></i></a>
+        <a href="" style="color: black;"><i class="fa-brands fa-youtube"></i></a>
+       <p class="footer" align="center"> © Copyright 2023 | Mind Matters. See <a href="" style="text-decoration: dotted; color: rgb(61, 85, 200);">Terms of Use</a> and <a href="" style=" color: rgb(72, 113, 209); text-decoration: dotted;">Privacy Policy</a>.</p>
+    
+    <p class="footer">Mind Matters Screening is an educational program intended to help inform people about options they have in getting help for mental health issues. It may suggest tools and resources that offer information, treatment services,
+         self-help (or “DIY”) tools, and/or ways to connect with others. It does not represent its results as an exhaustive list of all services available to a given individual for a given mental health concern, as an endorsement of specific treatments
+          or services, or as a replacement for treatment or services as performed by a qualified provider. For any and all suggestions, comments, or questions, please contact Mind Matters</p>
+    </footer>
+
+
+</body>
+</html>

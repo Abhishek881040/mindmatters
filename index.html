@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://kit.fontawesome.com/e3ea098f53.js" crossorigin="anonymous"></script>
+<style>
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.inner{
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #e3f8f8;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 140px;
+    background: #e3f8f8;
+    color: #464646
+}
+strong{
+    font-size: 1em;
+    line-height: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 140px;
+}
+h1{
+    margin: 0 0 0.5em;
+    padding: 0;
+    margin: 0 0 0.15em;
+    font-size: 4.5em;
+    line-height: 1.15em;
+    color: #237591;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700
+}
+
+
+
+
+.main{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.dropbtn{
+    border: none;
+    font-size:large;
+    font-weight: bold;
+    border-radius:20px;
+    background-color:#abb8c3;
+    color: white;
+    float: right;
+}
+.w1{
+    float: left;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: #abb8c3;
+  color: white;
+  padding:20px;
+  margin:20px;
+  width: 340px;
+}
+.dropdown:hover{
+    background-color: #211c32;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    border: 10px solid #abb8c3;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+
+}
+
+.dropdown-content pre {
+  color: white;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  display:inline-block;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content pre:hover {background-color: #211c32;transition-delay: 1.5s;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:#211c32; transition-duration: 1s;}
+
+
+h2{
+    margin: 0 0 0.5em;
+    padding: 0;
+    margin: 0 0 0.15em;
+    font-size: 3em;
+    color: #9b51e0;
+    line-height: 1.15em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600
+    
+}
+.main2{
+    margin-left: 100px;
+    margin-right:100px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: #e3f8f8;
+    padding: 30px;
+}
+.link1{
+    box-sizing: border-box;
+    background-color: #9b51e0;
+    border-radius: 30px;
+    padding: 10px;
+    display:inline-block;
+}
+.link1:hover{
+    color: white;
+    background-color: rgb(76, 247, 121);
+}
+
+
+
+.main4{
+    margin-left: 100px;
+    margin-right:100px;
+    
+}
+
+.main3{
+    float: left;
+    box-sizing: border-box;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    color: #237591;
+    background-color: #e3f8f8;
+    padding: 30px;
+    width: 40%;
+    line-height: 2em;
+    }
+
+ins{
+    text-decoration: none;
+    line-height: 2em;
+}
+
+
+.main5{
+    float: right;
+    color:white;
+    background-color: #237591;
+    width: 50%;
+    margin-left: 20px;
+    padding: 30px;
+    line-height: 1.5em;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.break{
+    clear: both;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#e3f8f8;
+}
+.footer{
+    color: black;
+    font-size: x-small;
+}
+
+
+
+.header{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+/* Dropdown Button */
+.dropbtn1 {
+  background-color: white;
+  color:#237591;
+  padding: 40px;
+  font-size: 14px;
+  border: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width:max-content;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color:#237591;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {background-color: white;text-decoration: underline yellowgreen 3px;}
+
+.model:hover{
+    text-decoration: underline yellowgreen 3px;
+}
+
+</style>
+<body>
+<div class="header" id="headermain">
+
+    <img height="10%" width="20%" 
+     src="MINDMATTERS_LO-FF_02b-01.jpg" alt="">
+
+     <div class="dropdown1">
+        <button class="dropbtn1" ><b>Learn about mental health</b></button>
+        <div class="dropdown-content1">
+          <a href="#">Mental Health 101</a>
+          <a href="#">Treatment info</a>
+          <a href="#">Anxiety</a>
+          <a href="">ADHD</a>
+          <a href="">Bipolar</a>
+          <a href="">Addiction</a>
+          <a href="">Psychosis</a>
+          <a href="">PTSD</a>
+          <a href="">Self-Harm</a>
+          <a href="">Suicide</a>
+          <a href="">Youth</a>
+          <a href="">Friends & Family</a>
+        </div>
+      </div>
+
+      <div class="dropdown1">
+        <button class="dropbtn1" ><b>Resources</b></button>
+        <div class="dropdown-content1">
+          <a href="#">DIY Tools</a>
+          <a href="#">Get Help</a>
+          <a href="#">Connect with others</a>
+          <a href="">Overcoming Negative Thoughts</a>
+        </div>
+      </div>
+
+      <div class="dropdown1">
+        <button class="dropbtn1" ><b>About Us</b></button>
+        <div class="dropdown-content1">
+            <a href="">Contact Us</a>
+          <a href="#">About Mind Matters screening</a>
+          <a href="#">About our mental health tests</a>
+        </div>
+      </div>
+
+      <a class="model" href="login.html" target="popup"
+           onclick="window.open('login.html','popup','width=600,height=600',); return false;" style="color: #237591;
+           padding: 40px; font-size: 14px;"><b>Login</b></a>
+        <a class="model" href="register.html" target="popup" 
+        onclick="window.open('register.html','popup','width=600,height=600'); return false;" 
+        style="color: #237591;padding: 40px; font-size: 14px;"><b>Registration</b></a>
+
+</div>
+
+
+    <div class="inner">
+
+        <h1>Take a Mental Health Test</h1>
+    
+<div class="text">
+<p class="p1">Online screening is one of the quickest and easiest ways to determine whether you are experiencing symptoms of a mental health condition.</p>
+<p><strong class="p2">Mental health conditions, such as depression or anxiety, are real, common and treatable. And recovery is possible.</strong></p>
+</div></div>
+<br>
+
+<div class="main">
+
+<div class="dropdown">
+  <b class="w1">DEPRESSION TEST</b><button class="dropbtn">+</button>
+  <div class="dropdown-content">
+    <pre>
+    For people experiencing
+    overwhelming sadness or
+    despair, low energy or
+    negative self image.</pre>
+        <a href="mindmatters2.html"><b>TAKE DEPRESSION TEST</b></a>
+  </div>
+</div>
+
+<div class="dropdown">
+    <b class="w1">ADHD TEST</b><button class="dropbtn">+</button>
+    <div class="dropdown-content">
+      <pre>
+    For people of all ages who
+    have trouble focusing,
+    remembering things,
+    completing tasks, and/or 
+    sitting still.</pre>
+        <a href=""><b>TAKE ADHD TEST</b></a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <b class="w1">PTSD TEST</b><button class="dropbtn">+</button>
+    <div class="dropdown-content">
+      <pre>
+    For people experiencing
+    ongoing distress after a 
+    traumatic life event.
+      </pre>
+      <a href=""><b>TAKE PTSD TEST</b></a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <b class="w1">ANXIETY TEST</b><button class="dropbtn">+</button>
+    <div class="dropdown-content">
+      <PRE>
+    For people experiencing
+    extreme worry or fear that
+    affects their ability to function
+    day-to-day.</PRE>
+        <a href=""><b>TAKE ANXIETY TEST</b></a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <b class="w1">BIPOLAR TEST</b><button class="dropbtn">+</button>
+    <div class="dropdown-content">
+      <pre>
+    For people experiencing
+    extreme mood swings or
+    unusual shifts in mood
+    and energy.</pre>
+        <a href=""><b>TAKE BIPOLAR TEST</b></a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <b class="w1">ADDICTION TEST</b><button class="dropbtn">+</button>
+    <div class="dropdown-content">
+      <pre>
+    For people who are concerned
+    abouut their use of alcohol or
+    drugs. Can also be applied to
+    other behaviors, like gambling
+    or self-harm.</pre>
+        <a href=""><b>TAKE ADDICTION TEST</b></a>
+    </div>
+  </div>
+
+
+
+  <br>
+
+
+<div class="main2">
+     <h2>How Does it Work?</h2>
+     <br>
+     <p>After your mental health test, you will see information, resources, and tools to help you understand and improve your mental health.
+<br><br>
+<a href="" class="link1"><b>HOW CAN ONLINE MENTAL HEALTH TESTING HELP ME?</b></a>
+<br><br>
+<a href="" class="link1"><b>WHAT DO MY MENTAL HEALTH TEST RESULTS MEAN?</b></a>
+
+<br><br>
+<b style="color: #9b51e0;">Please note:</b> Online screening tools are meant to be a quick snapshot of your mental health. If your results indicate you may be experiencing symptoms of a mental illness, consider sharing your results with someone.
+ A mental health provider (such as a doctor or a therapist) can give you a full assessment and talk to you about options for how to feel better.
+<br><br>
+
+This website is an informational resource. We are not a crisis support line. If you need immediate help, you can reach the Suicide & Crisis Lifeline by calling or texting <u style="color: #9b51e0;"><b>988</b></u>
+ or using the chat box at <u style="color: #9b51e0;"><b>988lifeline.org/chat</b></u>. You can also text
+  “Mind Matters” to <u style="color: #9b51e0;"><b>741-741</b></u> to reach the Crisis Text Line. Warmlines are an excellent place for non-crisis support.
+<br><br>
+For all other screening-related questions and non-emergency support, please use Mind Matters Contact Us form.</p>
+</div><br><br>
+
+
+<div class="main4">
+
+<div class="main3">
+    <h3 style="font-size: x-large;">Learn about mental health conditions</h3>
+    <ins><a href="" style="color: #237591;">Abuse</a> | <a href="" style="color: #237591;">Addiction</a> | <a href="" style="color: #237591;">ADHD</a>
+    | <a href="" style="color: #237591;">Anxiety</a> | <a href="" style="color: #237591;">Bipolar</a> | <a href="" style="color: #237591;">Borderline</a> |
+    <a href="" style="color: #237591;">Depression</a> | <a href="" style="color: #237591;">Eating Disorder</a> | <a href="" style="color: #237591;">Loneliness</a> |
+    <a href="" style="color: #237591;">OCD</a> | <a href="" style="color: #237591;">Postpartum Depression</a> | <a href="" style="color: #237591;">Psychosis</a> | 
+    <a href="" style="color: #237591;">Relationships</a> | <a href="" style="color: #237591;">Self-Harm</a> | <a href="" style="color: #237591;">Sleep</a> | 
+    <a href="" style="color: #237591;">Suicide</a> | <a href="" style="color: #237591;">Trauma & PTSD</a>
+</ins>
+</div><br><br><br><br><br>
+
+<div class="main5">
+    <h3 style="font-size: x-large; line-height: 2em;">Popular Mental Health Articles</h3>
+    <br><a href="">Am I depressed or just sad?</a>
+    <br><br><a href="">I don't want to live, but I don't want to die.</a>
+    <br><br><a href="">Need to talk to someone? (Warmlines)</a>
+    <br><br><a href="">I hate myself.</a>
+    <br><br><a href="">I think about death all the time.</a>
+    <br><br><a href="">What mental illness do I have?</a>
+    <br><br><a href="">I don't have feelings anymore.</a>
+    <br><br><a href="">How do I get a service animal?</a>
+</div>
+
+</div><br class="break"><br>
+
+
+
+<footer>
+    <a class="link2" href="#headermain" style="color: black;"><i class="fa-solid fa-house"></i></a>
+    <a href="" style="color: black;"><i class="fa-brands fa-instagram" style=""></i></a>
+    <a href="" style="color: black;"><i class="fa-solid fa-envelope"></i></a>
+    <a href="" style="color: black;"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="" style="color: black;"><i class="fa-brands fa-twitter"></i></a>
+    <a href="" style="color: black;"><i class="fa-brands fa-youtube"></i></a>
+   <p class="footer" align="center"> © Copyright 2023 | Mind Matters. See <a href="" style="text-decoration: dotted; color: rgb(61, 85, 200);">Terms of Use</a> and <a href="" style=" color: rgb(72, 113, 209); text-decoration: dotted;">Privacy Policy</a>.</p>
+
+<p class="footer">Mind Matters Screening is an educational program intended to help inform people about options they have in getting help for mental health issues. It may suggest tools and resources that offer information, treatment services,
+     self-help (or “DIY”) tools, and/or ways to connect with others. It does not represent its results as an exhaustive list of all services available to a given individual for a given mental health concern, as an endorsement of specific treatments
+      or services, or as a replacement for treatment or services as performed by a qualified provider. For any and all suggestions, comments, or questions, please contact Mind Matters</p>
+</footer>
+
+
+</body>
+
+</html>

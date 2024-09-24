@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://kit.fontawesome.com/e3ea098f53.js" crossorigin="anonymous"></script>
+<style>
+    body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+/* Dropdown Button */
+.dropbtn1 {
+  background-color: white;
+  color:#237591;
+  padding: 40px;
+  font-size: 14px;
+  border: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width:max-content;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color:#237591;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {background-color: white;text-decoration: underline yellowgreen 3px;}
+
+.model:hover{
+    text-decoration: underline yellowgreen 3px;
+}
+
+.dropdown-content1 a{
+    text-decoration: none;
+    color: #237591;
+}
+.head1{
+    color: #237591;
+    background-color:  #e3f8f8;
+    padding: 25px 15%;
+    font-size: x-large;
+}
+.head2{
+    color: #e3f8f8;
+    background-color:  #237591;
+    margin: 25px 35%;
+    font-size: large;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+h5,h2{
+    padding: 20px;
+}
+.design{
+    display: flex;
+    padding:25px 37%;
+}
+.p3{
+    text-transform: lowercase;
+}
+.headbox{
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box{
+    width: 300px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #c7dfdf;
+    margin: 20px;
+    font-size:medium;
+    font-weight: bold;
+    color: #237591;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#e3f8f8;
+}
+.footer{
+    color: black;
+    font-size: x-small;
+}
+.button1{
+    text-decoration: none;
+    padding:15px 35px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    float: left;
+    margin-left: 10%;
+}
+.button{
+    text-decoration: none;
+    padding:15px 35px;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    float: right;
+    margin-right: 10%;
+}
+.clear{
+    clear: both;
+}
+</style>
+
+<body>
+    <div class="header" id="headermain">
+
+        <img height="10%" width="20%" 
+         src="MINDMATTERS_LO-FF_02b-01.jpg" alt="">
+    
+         <div class="dropdown1">
+            <button class="dropbtn1" ><b>Learn about mental health</b></button>
+            <div class="dropdown-content1">
+              <a href="#">Mental Health 101</a>
+              <a href="#">Treatment info</a>
+              <a href="#">Anxiety</a>
+              <a href="">ADHD</a>
+              <a href="">Bipolar</a>
+              <a href="">Addiction</a>
+              <a href="">Psychosis</a>
+              <a href="">PTSD</a>
+              <a href="">Self-Harm</a>
+              <a href="">Suicide</a>
+              <a href="">Youth</a>
+              <a href="">Friends & Family</a>
+            </div>
+          </div>
+    
+          <div class="dropdown1">
+            <button class="dropbtn1" ><b>Resources</b></button>
+            <div class="dropdown-content1">
+              <a href="#">DIY Tools</a>
+              <a href="#">Get Help</a>
+              <a href="#">Connect with others</a>
+              <a href="">Overcoming Negative Thoughts</a>
+            </div>
+          </div>
+    
+          <div class="dropdown1">
+            <button class="dropbtn1" ><b>About Us</b></button>
+            <div class="dropdown-content1">
+                <a href="">Contact Us</a>
+              <a href="#">About Mind Matters screening</a>
+              <a href="#">About our mental health tests</a>
+            </div>
+          </div>
+    
+          <a class="model" href="login.html" target="popup"
+               onclick="window.open('login.html','popup','width=600,height=600',); return false;" style="color: #237591;
+               padding: 40px; font-size: 14px;"><b>Login</b></a>
+            <a class="model" href="register.html" target="popup" 
+            onclick="window.open('register.html','popup','width=600,height=600'); return false;" 
+            style="color: #237591;padding: 40px; font-size: 14px;"><b>Registration</b></a>
+    </div>
+
+    <div class="head1">
+        <h1>Depression Test</h1>
+    </div>
+    
+    <div class="design" align="center">
+        <p class="p3"><i class="fa-solid fa-circle-check" style="font-size: xx-large;"></i><br>test <br> questions</p>
+        <i class="fa-solid fa-arrow-right-long" style="font-size: xx-large;padding: 2%;"></i>
+        <p class="p3"><i class="fa-solid fa-circle-check" style="font-size: xx-large;"></i><br>demographic <br> info</p>
+        <i class="fa-solid fa-arrow-right-long" style="font-size: xx-large;padding: 2%;"></i>
+        <p class="p3"><i class="fa-solid fa-circle-check" style="font-size: xx-large;"></i><br>your  <br>results</p></div>
+    
+        <div class="head2">
+            <h5>Your Result --- Depression Test</h5>
+            <h2><b id="resultfinal">Minimal Depression</b></h2>
+        </div>
+
+        <div class="headbox">
+            <div class="box specialbox">Your Score : 3/25</div>
+            <div class="box">Email Results</div>
+            <div class="box">Take another mental health test</div>
+            <div class="box">login to save your results</div><br>
+            <div>Based on your responses, you have few or no symptoms of depression. This result is not a diagnosis. A doctor or therapist can help you get a diagnosis and/or treatment.</div>
+        </div>
+        <br><br>
+
+        <a class="button1" href="index.html" style="color:white;background-color: #237591;"><b><i class="fa-solid fa-arrow-left fa-bounce" style="font-size: larger;"></i><b style="color: #237591;"> _</b>Home </b></a>
+
+        <a class="button" onclick="reset()" href="" style="color:white;background-color: #237591;"><b>RESET <b style="color: #237591;"> _</b><i class="fa-solid fa-chevron-circle fa-bounce" style="font-size: larger;"></i></b></a>
+<br class="clear"><br>
+
+        <hr class="line"><br>
+        
+        <footer>
+            <a class="link2" href="#headermain" style="color: black;"><i class="fa-solid fa-house"></i></a>
+            <a href="" style="color: black;"><i class="fa-brands fa-instagram" style=""></i></a>
+            <a href="" style="color: black;"><i class="fa-solid fa-envelope"></i></a>
+            <a href="" style="color: black;"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="" style="color: black;"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" style="color: black;"><i class="fa-brands fa-youtube"></i></a>
+           <p class="footer" align="center"> © Copyright 2023 | Mind Matters. See <a href="" style="text-decoration: dotted; color: rgb(61, 85, 200);">Terms of Use</a> and <a href="" style=" color: rgb(72, 113, 209); text-decoration: dotted;">Privacy Policy</a>.</p>
+        
+        <p class="footer">Mind Matters Screening is an educational program intended to help inform people about options they have in getting help for mental health issues. It may suggest tools and resources that offer information, treatment services,
+             self-help (or “DIY”) tools, and/or ways to connect with others. It does not represent its results as an exhaustive list of all services available to a given individual for a given mental health concern, as an endorsement of specific treatments
+              or services, or as a replacement for treatment or services as performed by a qualified provider. For any and all suggestions, comments, or questions, please contact Mind Matters</p>
+        </footer>
+
+<script src="new.js"></script>
+</body>
+</html>
